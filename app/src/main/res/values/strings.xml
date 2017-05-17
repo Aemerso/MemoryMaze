@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MemoryMaze</string>
+    <string name="action_settings">Settings</string>
+    <string name="issued_commands">Issued Commands: </string>
+    <string name="undo">Undo</string>
+    <string name="regenerate">Regenerate</string>
+    <string name="go">Go</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="up">Up</string>
+    <string name="down">Down</string>
+    <string name="fill">Fill</string>
+    <string name="transparent"> </string>
+    <string name="target_graph">Target Graph</string>
+    <string name="created_graph">Created Graph</string>
+    <string name="back">Back</string>
+    <string name="correct">Congratulations, you created the graph correctly!</string>
+    <string name="incorrect">You did not create the graph correctly. Try again!</string>
+    <string name="play">Play</string>
+    <string name="select_difficulty">Select Difficulty:</string>
+    <string name="difficulty_easy">Easy      (4x4)</string>
+    <string name="difficulty_medium">Medium    (5x5)</string>
+    <string name="difficulty_difficult">Difficult (6x6)</string>
+</resources>

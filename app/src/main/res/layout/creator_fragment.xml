@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+            android:background="#007fff">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textSize="30sp"
+            android:textColor="#ffff00"/>
+
+    <GridView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/graph"
+            android:verticalSpacing="1dp"
+            android:background="#007fff"
+            android:gravity="center_horizontal"
+            android:horizontalSpacing="1dp"
+            android:stretchMode="columnWidth"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/left"
+                android:contentDescription="@string/left"
+                android:id="@+id/buttonLeft"
+                android:layout_weight="1"
+                android:background="@null" />
+
+        <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/right"
+                android:contentDescription="@string/right"
+                android:id="@+id/buttonRight"
+                android:layout_weight="1"
+                android:background="@null" />
+
+        <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/up"
+                android:contentDescription="@string/up"
+                android:id="@+id/buttonUp"
+                android:layout_weight="1" android:background="@null" />
+
+        <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/down"
+                android:contentDescription="@string/down"
+                android:id="@+id/buttonDown"
+                android:layout_weight="1"
+                android:background="@null" />
+
+        <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fill"
+                android:contentDescription="@string/fill"
+                android:id="@+id/buttonFill"
+                android:layout_weight="1"
+                android:background="@null" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listCommands"
+                android:padding="1dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/issued_commands"
+                    android:textSize="23sp"
+                    android:textColor="#ffff00"
+                    android:layout_gravity="center_vertical"/>
+
+            <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/transparent"
+                    android:contentDescription="@string/transparent"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  >
+
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/undo"
+                android:textColor="#007fff"
+                android:background="#ffff00"
+                android:id="@+id/buttonUndo"
+                android:layout_weight="1" />
+
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/regenerate"
+                android:background="#ffff00"
+                android:textColor="#007fff"
+                android:textSize="15dp"
+                android:id="@+id/buttonRegen"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"/>
+
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/go"
+                android:background="#ffff00"
+                android:textColor="#007fff"
+                android:id="@+id/buttonGo"
+                android:layout_weight="1" />
+
+    </LinearLayout>
+</LinearLayout>

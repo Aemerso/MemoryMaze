@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#007fff">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#ffff00"
+            android:textSize="45sp"
+            android:gravity="center"
+            android:id="@+id/textView"
+            android:layout_weight="3"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_difficulty"
+            android:textColor="#ffff00"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="2"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/difficulty_easy"
+            android:textSize="25sp"
+            android:textColor="#007fff"
+            android:layout_gravity="center"
+            android:background="#ffff00"
+            android:id="@+id/buttonEasy"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/difficulty_medium"
+            android:textSize="25sp"
+            android:textColor="#007fff"
+            android:layout_gravity="center"
+            android:background="#ffff00"
+            android:id="@+id/buttonMedium"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/difficulty_difficult"
+            android:textSize="25sp"
+            android:textColor="#007fff"
+            android:layout_gravity="center"
+            android:background="#ffff00"
+            android:id="@+id/buttonDifficult"
+            android:layout_weight="1"/>
+</LinearLayout>

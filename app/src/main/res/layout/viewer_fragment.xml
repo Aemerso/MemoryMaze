@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#007fff">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/target_graph"
+            android:textSize="25sp"
+            android:textColor="#ffff00"/>
+
+    <GridView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/targetGraph"
+            android:verticalSpacing="1dp"
+            android:background="#007fff"
+            android:gravity="center_horizontal"
+            android:horizontalSpacing="1dp"
+            android:stretchMode="columnWidth"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/created_graph"
+            android:textSize="25sp"
+            android:textColor="#ffff00"/>
+
+    <GridView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/createdGraph"
+            android:verticalSpacing="1dp"
+            android:background="#007fff"
+            android:gravity="center_horizontal"
+            android:horizontalSpacing="1dp"
+            android:stretchMode="columnWidth"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:id="@+id/correctnessMessage"
+            android:layout_gravity="center_horizontal" />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:textColor="#007fff"
+            android:background="#ffff00"
+            android:id="@+id/buttonBack"
+            android:layout_gravity="center_horizontal" />
+</LinearLayout>
